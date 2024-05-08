@@ -10,10 +10,10 @@ int main()
     printf("il tuo numero è:%d\n", a);
     if (!N/a)
     {
-    printf("il numero è primo");
+    printf("il tuo numero non è primo");
     }
     else 
     {
-    printf("il numero non è primo");
+    printf("il numero è primo");
     }
 }

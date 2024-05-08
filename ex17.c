@@ -1,15 +1,28 @@
 #include <stdio.h>
 int main()
 {
-    int a;
-    int n = N+1;
-    int c=c+1;
-    while (a <= 100)
-    {
-        printf("%d\n", a);
-        a = a + 1;
-        if(n%a==0)
-        printf(non è un numero primo);
+    int num;
+    int div;
+    int c=0;
+    printf("inserisci un numero:\n");
+    scanf("%d", &num);
     
+    div=num-1;
+    while( div > 1 )
+    {
+        if(num%div==0)
+        {
+            c=c+1;
+        }
+        div=div-1;
+
+    }
+    if(c==0)
+    {
+        printf("il tuo numero è primo\n");
+    }
+    else
+    {
+        printf("il tuo numero non è primo\n");
     }
 }
