@@ -14,4 +14,4 @@ int utente;
 char nomeutente [50];
 scanf("%s", nomeutente);
 printf("il tuo nome utente è: %s", nomeutente);
-}\\\\\
+}
